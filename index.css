@@ -307,6 +307,13 @@ p {
     gap: 30px;
     margin-top: 40px;
 }
+/* Card for About */
+.card-about {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
 
 .card {
     background: white;
